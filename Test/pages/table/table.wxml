@@ -1,0 +1,25 @@
+<view class="container">
+  <scroll-view class="my-scroll-view" scroll-y="true" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+        <block wx:for-items="{{films}}" wx:for-item="film">
+             <view class="item-cell">
+                <image class="photo" src="{{src}}"></image>
+                  <view class="film-top">
+                        <view>
+                              <text class="my-film-title">hahahaha</text>
+                              <text class="film-data">2015</text>
+                        </view>
+                        <view class="film-rating">
+                              <block wx:if="{{film.rating.average > 0}}">
+                              <text class="label">评分</text>
+                              <text class="rating">{{film.rating.average}}</text>
+                              </block>
+                              <block wx:else>
+                              <text class="label">暂无评分</text>
+                              </block>
+                        </view>
+                  </view>
+                  
+              </view>
+        </block>
+    </scroll-view>
+</view>

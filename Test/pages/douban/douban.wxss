@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.film-info{
+  padding-left: 10px;
+  flex: 1;
+}
+.film-info view{
+  margin-bottom: 10px;
+}
+.film-info .label{
+  margin-right: 5px;
+  color: #666;
+}
+.film-info .rating{
+  color: #e09015;
+}

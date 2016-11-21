@@ -1,0 +1,15 @@
+<scroll-view class = "scroll" scroll-y="true"  bindscroll="scroll" bindscrolltolower="scrolltolower">
+    <block wx:for-items="{{films}}" wx:for-item="film">
+    <view class= "film-item">
+        <view class= "film-image">
+            <image  src = "{{src}}"></image>
+        </view>
+        <view class="film-info">
+            <view>
+                <text class="film-title"> today </text>
+                <text class="film-year">2015</text>
+            </view>
+        </view>
+    </view>
+    </block>
+</scroll-view>

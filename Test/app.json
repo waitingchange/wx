@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/table/table",
+    "pages/index/index",
+    "pages/douban/douban",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "backgroundColor": "#faf",
+    "list": [{
+      "pagePath": "pages/douban/douban",
+      "iconPath": "image/ing.png",
+      "selectedIconPath": "image/ing-active.png",
+      "text": "正在热映"
+    },{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/coming.png",
+      "selectedIconPath": "image/coming-active.png",
+      "text": "即将上映"
+    }]
+  },
+  "debug": true  
+
+
+}
