@@ -37,6 +37,9 @@ Page({
   },
   onReady:function(){
     // 页面渲染完成
+
+    // var ic = new icon();
+    // ic.style.type = "success";
   },
   onShow:function(){
     // 页面显示

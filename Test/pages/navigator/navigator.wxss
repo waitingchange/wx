@@ -1,0 +1,19 @@
+
+.item {
+  display: flex;
+  padding: 20rpx 40rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.poster {
+  width: 128rpx;
+  height: 128rpx;
+  margin-right: 20rpx;
+}
+.meta{
+  flex: 1;
+}
+.item .meta .title,
+.item .meta .sub-title {
+  display: block;
+  margin-bottom: 15rpx;
+}
