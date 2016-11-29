@@ -1,0 +1,23 @@
+<view class="container">
+	<scroll-view scroll-y="true" class= "myScroll"  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}" >
+	    <view wx:for="{{movies}}"  wx:for-item="film">
+	    	<view class="item">
+	    		<image class="image" src="{{film.images.medium}}"/>
+
+	    		<view class = "desc">
+	    			<text class="title">{{film.title}}</text>
+	                <text class="sub-title">{{film.original_title}}({{film.year}})</text>
+	                <view class="artists">
+	                    <text wx:for="{{item.directors}}">{{film.name}}</text>
+	                </view>
+	    		</view>
+
+	    		<view class="button">
+	    			<text>{{film.rating.average}}</text>
+                	<view class="buy">购票</view>
+	    		</view>
+	    	</view>
+	    </view>
+  </scroll-view>
+
+</view>

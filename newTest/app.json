@@ -1,6 +1,6 @@
 {
   "pages":[
-    "pages/canvas/canvas",
+    "pages/movie/movie",
     "pages/index/index",
     "pages/logs/logs"
   ],
